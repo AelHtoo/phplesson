@@ -24,6 +24,6 @@
     echo "<p>Tomorrow is ".date("Y-m-d",$tomorrow)."</p>";
     $next_sat = strtotime('next Saturday');
     echo $next_sat;
-    echo "<p>Next Saturday is ".date("Y/m/d",$next_sat)."</p>"
+    echo "<p>Next Saturday is ".date("Y/m/d",$next_sat)."</p>";
 
 ?>
